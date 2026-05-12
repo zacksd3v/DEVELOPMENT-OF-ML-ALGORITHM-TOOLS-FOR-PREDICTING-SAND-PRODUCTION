@@ -1,41 +1,42 @@
----
+# 🏗️ PetroGuard AI: Sand Production Prediction System
 
-## Sand Production Prediction
-
-Wannan README ɗin an tsara shi ne don ya nuna **Technical Depth** na aikin Petroleum Engineering.
-
-```markdown
-# 🏗️ PetroGuard AI: Sand Production Prediction Tool
-
-### 🎓 Final Year Project - Department of Computer Science, FUDMA
+### 🎓 Final Year Project - Federal University Dutsin-Ma (FUDMA)
 **Topic:** Development of Machine Learning Algorithm Tools for Predicting Sand Production  
-**Researcher:** Nura Abdullahi  
-**Supervisor:** Nuradden Ahmad Sama'illa
+**Researcher:** NURA ABDULLAHI  
+**Matric No:** CSA/2023/27937  
+**Supervisor:** NURADDEN AHMAD SAMA'ILLA  
 
 ---
 
 ## 🛢️ Executive Summary
-In the oil and gas industry, sand production is a critical challenge that leads to equipment erosion and borehole instability. This project utilizes the **Random Forest Regressor** algorithm to predict sand influx based on geomechanical reservoir parameters, enabling engineers to implement timely sand control measures.
+Sand production is a major challenge in the petroleum industry, causing equipment erosion, pipe blockage, and borehole instability. This project utilizes an **Advanced Machine Learning (Random Forest)** approach to predict sand influx volume based on subsurface reservoir parameters. 
 
-## 🌟 Key Features
-- **Advanced Simulation:** Predicts sand volume (kg/day) using reservoir depth, flow rate, and pressure.
-- **Risk Assessment Gauge:** A visual "Risk Meter" (Red/Yellow/Green) for immediate decision support.
-- **Feature Importance:** Visualizes which reservoir parameters (e.g., Rock Strength) most influence sand influx.
-- **Engineering Recommendations:** Provides automated advice on installing sand screens or adjusting choke sizes.
+The goal is to provide a decision-support tool that helps field engineers implement proactive sand control measures like gravel packing or flow-rate optimization.
 
-## 📊 Parameters Analyzed
-- **TVD:** True Vertical Depth (m)
-- **Flow Rate:** Liquid production velocity (bpd)
-- **BHP:** Bottom-hole Pressure (psi)
-- **UCS:** Unconfined Compressive Strength (Rock Strength in MPa)
+## 🌟 Professional Features
+- **Real-Time Prediction:** Accurate estimation of sand production in kg/day.
+- **Risk Assessment Gauge:** An interactive visual meter (Green/Yellow/Red) for quick risk identification.
+- **Feature Importance Analysis:** Visualizes which factors (e.g., Rock Strength vs. Pressure) contribute most to sand failure.
+- **Engineering Recommendations:** Automated technical advice (e.g., install screens, reduce drawdown) based on predicted risk levels.
+- **Data Analytics:** Built-in EDA (Exploratory Data Analysis) to understand reservoir correlations.
 
-## 🏗️ Model Architecture
-- **Algorithm:** Random Forest Regressor (Ensemble Learning)
-- **Evaluation:** R-Squared (Accuracy) and Mean Absolute Error (MAE).
+## 📊 Core Parameters Analyzed
+- **Vertical Depth (m):** To assess overburden stress.
+- **Flow Rate (bpd):** To measure fluid drag forces.
+- **Well Pressure (psi):** To monitor reservoir energy.
+- **Rock Strength (UCS MPa):** To evaluate the mechanical integrity of the formation.
 
-## 🚀 How to Run
-1. Ensure you have the following files in one directory:
-   - `app.py`, `sand_model.pkl`, `sand_data.csv`, `sand_metrics.pkl`
-2. Run via terminal:
-   ```bash
-   streamlit run app.py
+## 🛠️ Technology Stack
+- **AI Core:** Random Forest Regressor (Scikit-Learn).
+- **Interface:** Streamlit (UI/UX Design).
+- **Visualization:** Plotly (Interactive Gauges), Seaborn & Matplotlib (Statistical Charts).
+- **Storage:** Joblib (Model Serialization).
+
+## 📂 Project Structure
+```text
+├── app.py                # Main Streamlit Dashboard
+├── sand_model.pkl        # Trained Random Forest Model
+├── sand_data.csv         # Reservoir Dataset
+├── sand_metrics.pkl      # Evaluation Scores (R² & MAE)
+└── images/
+    └── fudma.webp        # University Logo
