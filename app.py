@@ -32,9 +32,9 @@ except Exception as e:
 st.sidebar.image("./images/fudma.webp", width=100)
 st.sidebar.title("System Control Center")
 st.sidebar.markdown("---")
-st.sidebar.write(f"**Field Engineer:** NURA ABDULLAHI")
-st.sidebar.write(f"**Matric No:** CSA/2023/27937")
-st.sidebar.write(f"**Supervisor:** NURADDEN AHMAD SAMA'ILLA")
+st.sidebar.write(f"**Field Engineer:** Full Name")
+st.sidebar.write(f"**Matric No:** *************")
+st.sidebar.write(f"**Supervisor:** ***********")
 st.sidebar.markdown("---")
 st.sidebar.success("Software Status: Operational")
 
@@ -70,7 +70,7 @@ with tab_tool:
         predict_btn = st.button("🚀 Execute Analysis", use_container_width=True)
 
     with col_display:
-        st.subheader("🔍 Prediction Output")
+        st.subheader("🔍 Prediction Output (Risk Gauge)")
         if predict_btn:
             with st.spinner('Calculating stress distribution...'):
                 time.sleep(1.5)
