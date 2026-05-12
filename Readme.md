@@ -2,9 +2,9 @@
 
 ### 🎓 Final Year Project - Federal University Dutsin-Ma (FUDMA)
 **Topic:** Development of Machine Learning Algorithm Tools for Predicting Sand Production  
-**Researcher:** NURA ABDULLAHI  
-**Matric No:** CSA/2023/27937  
-**Supervisor:** NURADDEN AHMAD SAMA'ILLA  
+**Researcher:** *********** 
+**Matric No:** ************  
+**Supervisor:** ************  
 
 ---
 
