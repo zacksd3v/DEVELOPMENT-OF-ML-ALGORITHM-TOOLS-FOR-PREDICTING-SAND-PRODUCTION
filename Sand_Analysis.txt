@@ -1,0 +1,4 @@
+SAND PRODUCTION ANALYSIS REPORT
+Field: FUDMA Reservoir
+Result: 16.61 kg/day
+Status: High
